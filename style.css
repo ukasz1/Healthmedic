@@ -30,9 +30,14 @@ section{
 	text-align: center;
 	position: absolute;
 	top: 40vh;
-	left: 22%;
+	left: 23%;
 }
 
 .p-heading{
 	margin-top: 10px;
+}
+
+.flex-container{
+	flex-direction: row;
+	height: 100vh;
 }
