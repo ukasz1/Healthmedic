@@ -41,3 +41,34 @@ section{
 	flex-direction: row;
 	height: 100vh;
 }
+
+nav{
+    position: fixed;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	background-color: white;
+	height: 70px;
+	z-index: 1;
+
+}
+
+#inner-nav{
+	display: flex;
+	justify-content: flex-end;
+}
+
+#inner-nav > a >div{
+	width: 100px;
+}
+
+
+
+#inner-nav > a > div{
+	color: rgb(0,0,35);
+	border: 1px solid black;
+	text-align: center;
+	height: 70px;
+	line-height: 70px;
+	/*text-decoration: none;*/
+	}
