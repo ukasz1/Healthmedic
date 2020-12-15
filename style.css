@@ -1,9 +1,14 @@
 *{
+	background-color:rgb(0,0,50);
     margin: 0;
 	padding: 0;
     box-sizing: border-box;
 	font-family: Montserrat, Times New Roman;
 	color: white;
+}
+
+body{
+	background-color: white;
 }
 
 
@@ -18,7 +23,7 @@ section{
 	width: 100%;
 }
 
-.navy{
+#section-one{
 	background-color:rgb(0,0,50);
 }
 
@@ -38,8 +43,15 @@ section{
 }
 
 .flex-container{
+	display: flex;
 	flex-direction: row;
-	height: 100vh;
+	
+	
+}
+
+#section-two{
+	background-color: rgb(0,0,35);
+	height: 80vh;
 }
 
 nav{
@@ -49,6 +61,7 @@ nav{
 	justify-content: space-between;
 	background-color: white;
 	height: 70px;
+	border-bottom: 3px solid rgb(0,0,35);
 	z-index: 1;
 
 }
@@ -60,15 +73,26 @@ nav{
 
 #inner-nav > a >div{
 	width: 100px;
+	/*background-color: white;*/
 }
 
 
 
 #inner-nav > a > div{
+	background-color: white;
 	color: rgb(0,0,35);
-	border: 1px solid black;
+	border-left: 1px dashed rgb(0,0,35);
 	text-align: center;
-	height: 70px;
-	line-height: 70px;
+	height: 67px;
+	line-height: 67px;
 	/*text-decoration: none;*/
 	}
+	
+.flex-container-list{
+	flex: 50%; 
+	background-color: white; 
+	margin: 8%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 15px;
+}
