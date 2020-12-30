@@ -1,5 +1,14 @@
 <!DOCTYPE HTML>
 <html>
+
+<style>
+button:hover{
+transform: scale(1.07);
+background-color: #ffdb19;
+border: 1px solid black;
+border-radius: 2px;
+}
+</style>
 <head>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -94,15 +103,24 @@
 				<div class="corner">
 					<span class="golden-corner-p">Najwyższa jakość</span>
 				</div>
-				<div class="flex-container-list-1-heading"><h1>Złoty pakiet</h1></div>
+				<div class="flex-container-list-1-heading"><h1>Pakiet optimum</h1></div>
 				<div style="padding-left: 40px;">
-					<p>Lista korzyści</p>
+					<p>Korzyści:</p>
 					<ul>
 						<li>Profesjonalna opieka medyczna</li>
-						<li>Szeroka gama specjalistów</li>
-						<li>Dostęp 24 godziny na dobę</li>
-						
+						<li>Najszersza gama 35 specjalistów</li>
+						<li>Dostęp 24 godziny na dobę</li>	
 					<ul>
+				</div>
+				<div style="text-align: right;">
+					<a href="#">
+					<button type="button" name="golden" style="padding: 15px;
+					cursor: pointer;
+					transition-duration: 0.15s;
+					position: relative; right: 30px; top: 30px;
+					
+					">Wybierz pakiet</button>
+					</a>
 				</div>
 			<!-- -ms-transform: rotate(20deg); /* IE 9 */
 				transform: rotate(20deg);-->
@@ -110,7 +128,31 @@
 			
 				
 			</div>
-			<div class="flex-container-list" id="flex-container-list-2"></div>
+			<div class="flex-container-list" id="flex-container-list-2">
+				<div class="corner">
+					<span class="golden-corner-p">Optymalna cena</span>
+				</div>
+				<div class="flex-container-list-1-heading"><h1>Pakiet standard</h1></div>
+				<div style="padding-left: 40px;">
+					<p>Korzyści:</p>
+					<ul>
+						<li>Profesjonalna opieka medyczna</li>
+						<li>Szeroka gama 20 specjalistów</li>
+						<li>Dostęp 24 godziny na dobę</li>	
+					<ul>
+				</div>
+				<div style="text-align: right;">
+					<a href="#">
+					<button type="button" name="golden" style="padding: 15px;
+					cursor: pointer;
+					transition-duration: 0.15s;
+					position: relative; right: 30px; top: 30px;
+					
+					">Wybierz pakiet</button>
+					</a>
+				</div>
+			
+			</div>
 		</div>
 		
 <!--		
@@ -130,4 +172,5 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="script.js" type="text/javascript"></script> -->
 </body>
+
 </html>
