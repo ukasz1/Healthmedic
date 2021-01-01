@@ -1,14 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 
-<style>
-button:hover{
-transform: scale(1.07);
-background-color: #ffdb19;
-border: 1px solid black;
-border-radius: 2px;
-}
-</style>
+
 <head>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,7 +23,7 @@ border-radius: 2px;
 <body>
 
 	<section id="section-one">
-		<nav>
+		<nav><div style="display: table;">
 			<!--
 			<svg width="20vh" height="20vh">
 				<circle cx="40" cy="40" r="30" stroke="rgb(0,0,50)" stroke-width="2" fill="#ffffff" />
@@ -60,30 +53,15 @@ border-radius: 2px;
   <rect stroke="#000032" id="svg_2" height="32" width="11" y="19" x="30" stroke-width="0" fill="#00005C"/> <!-- pionowy -->
   
  </g>
-</svg>
-<!--
-			<svg width="90" height="90" xmlns="http://www.w3.org/2000/svg" style="vector-effect: non-scaling-stroke;" stroke="null">
+</svg><h1 style="display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	color: #00005C; font-size: 2em;">Healthmedic</h1></div>
 
- <g stroke="null">
-  <title stroke="null">background</title>
-  <rect stroke="null" fill="#fff" id="canvas_background" height="92" width="92" y="-1" x="-1"/>
-  <g style="vector-effect: non-scaling-stroke;" stroke="null" display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
-   <rect stroke="null" fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
-  </g>
- </g>
- <g stroke="null">
-  <title stroke="null">Layer 1</title>
-  <rect stroke="#000032" id="svg_2" height="55" width="5" y="20.5" x="44.5" stroke-width="1.5" fill="#000032"/>
-  <ellipse stroke="#000032" style="vector-effect: non-scaling-stroke;" ry="41.5" rx="44" id="svg_3" cy="7.35" cx="170.5" stroke-opacity="null" stroke-width="1.5" fill="none"/>
-  <rect stroke="#000032" id="svg_5" height="5" width="55" y="45" x="19.5" stroke-width="1.5" fill="#000032"/>
-  <ellipse ry="40" rx="40" id="svg_6" cy="48" cx="48" stroke-opacity="null" stroke-width="1.5" stroke="#000032" fill="none"/>
- </g>
-</svg>
-			-->
 			<div id="inner-nav">
-				<a href="#"><div>Link #1</div></a>
-				<a href="#"><div>Link #2</div></a>
-				<a href="#"><div>Link #3</div></a>
+				<a href="#"><div>Start</div></a>
+				<a href="#"><div>Pakiety</div></a>
+				<a href="#"><div>Kontakt</div></a>
 			</div>
 		</nav>
 		<div class="centerText">
@@ -100,7 +78,7 @@ border-radius: 2px;
 		
 		<div class="flex-container">
 			<div class="flex-container-list" id="flex-container-list-1">
-				<div class="corner">
+				<div class="corner-1">
 					<span class="golden-corner-p">Najwyższa jakość</span>
 				</div>
 				<div class="flex-container-list-1-heading"><h1>Pakiet optimum</h1></div>
@@ -114,7 +92,7 @@ border-radius: 2px;
 				</div>
 				<div style="text-align: right;">
 					<a href="#">
-					<button type="button" name="golden" style="padding: 15px;
+					<button class="golden" type="button" name="golden" style="padding: 15px;
 					cursor: pointer;
 					transition-duration: 0.15s;
 					position: relative; right: 30px; top: 30px;
@@ -129,10 +107,10 @@ border-radius: 2px;
 				
 			</div>
 			<div class="flex-container-list" id="flex-container-list-2">
-				<div class="corner">
+				<div class="corner-2">
 					<span class="golden-corner-p">Optymalna cena</span>
 				</div>
-				<div class="flex-container-list-1-heading"><h1>Pakiet standard</h1></div>
+				<div class="flex-container-list-2-heading"><h1>Pakiet standard</h1></div>
 				<div style="padding-left: 40px;">
 					<p>Korzyści:</p>
 					<ul>
@@ -143,7 +121,7 @@ border-radius: 2px;
 				</div>
 				<div style="text-align: right;">
 					<a href="#">
-					<button type="button" name="golden" style="padding: 15px;
+					<button type="button" class="silver" name="silver" style="padding: 15px;
 					cursor: pointer;
 					transition-duration: 0.15s;
 					position: relative; right: 30px; top: 30px;
