@@ -219,3 +219,10 @@ form input{
 	resize: none;
 	font-size:25px;
 }
+
+form button{
+	background-color: white;
+	color: #00001a;
+	font-size: 1.3em;
+	padding: 15px;
+}
