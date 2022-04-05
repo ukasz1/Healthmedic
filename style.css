@@ -1,60 +1,60 @@
-*{
+* {
 	/*background-color:rgb(0,0,50);*/
-    margin: 0;
+	margin: 0;
 	padding: 0;
-    box-sizing: border-box;
+	box-sizing: border-box;
 	font-family: Montserrat, Times New Roman;
-	
+
 }
 
-html{
+html {
 	scroll-behavior: smooth;
 }
 
-body{
+body {
 	background-color: white;
 	color: white;
 }
 
-section{
+section {
 	position: relative;
 	height: 100vh;
 	width: 100%;
 }
 
-#section-one{
-	background-color:rgb(0,0,50);
+#section-one {
+	background-color: rgb(0, 0, 50);
 }
 
-.hugeText{
+.hugeText {
 	font-size: 5em;
 }
 
-.centerText{
+.centerText {
 	text-align: center;
 	position: relative;
 	top: 40vh;
 }
 
-.p-heading{
+.p-heading {
 	margin-top: 10px;
 }
 
-#section-two{
-	background-image: linear-gradient(rgb(0,0,50), #4682B4) !important;
+#section-two {
+	background-image: linear-gradient(rgb(0, 0, 50), #4682B4) !important;
 	height: 100vh;
 	/*background-color: rgb(0,0,35);*/
 
 }
 
-#section-three{
-	
-	background-image: linear-gradient(#4682B4, rgb(0,0,50));
-	
+#section-three {
+
+	background-image: linear-gradient(#4682B4, rgb(0, 0, 50));
+
 }
 
-nav{
-    position: fixed;
+nav {
+	position: fixed;
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
@@ -66,24 +66,24 @@ nav{
 
 }
 
-#logo-link{
+#logo-link {
 	text-decoration: none;
 }
 
-#inner-nav{
+#inner-nav {
 	display: flex;
 	justify-content: flex-end;
 }
 
-#inner-nav > a {
+#inner-nav>a {
 	text-decoration: none;
 
 }
 
-#inner-nav > a > div{
+#inner-nav>a>div {
 	background-color: white;
-	color: rgb(0,0,80);
-	border-left: 1px dotted rgb(0,0,35);
+	color: rgb(0, 0, 80);
+	border-left: 1px dotted rgb(0, 0, 35);
 
 	padding: 10px;
 	text-align: center;
@@ -92,46 +92,48 @@ nav{
 	font-weight: bold;
 	position: relative;
 	top: 15px;
-	}
+}
 
-.section-two-title{
+.section-two-title {
 	font-size: 3em;
 	text-shadow: 1px 1px 1px black;
 }
 
-.flex-container{
+.flex-container {
 	display: flex;
 	flex-direction: row;
 }
 
-.flex-container-list{
-	flex: 50%; 
-	background-color: white; 
+.flex-container-list {
+	flex: 50%;
+	background-color: white;
 	/*margin: 8%;
 	margin-top: 30px;
 	margin-bottom: 30px;*/
-	margin-left: 10%;	/*130 px;*/
-	margin-right: 10%;	/*130 px;*/
+	margin-left: 10%;
+	/*130 px;*/
+	margin-right: 10%;
+	/*130 px;*/
 	border-radius: 15px;
 	height: 400px;
-	border: 1px solid rgb(0,0,35);
+	border: 1px solid rgb(0, 0, 35);
 }
 
-#flex-container-list-1{
+#flex-container-list-1 {
 	margin-right: 5%;
 	border: 8px solid gold;
-	
+
 	background-color: #fff9d9;
 	padding: 15px;
 	color: #404040;
 	box-shadow: inset 0 0 8px #777777;
 }
 
-#flex-container-list-2{
+#flex-container-list-2 {
 	margin-left: 5%;
-	
+
 	border: 8px solid grey;
-	
+
 	background-color: #ececec;
 	padding: 15px;
 	color: #404040;
@@ -165,14 +167,17 @@ nav{
 	border: 3px solid #707070;
 	display: table;
 }
-.golden{
+
+.golden {
 	padding: 15px;
 	cursor: pointer;
 	transition-duration: 0.15s;
-	position: relative; right: 30px; top: 30px;
+	position: relative;
+	right: 30px;
+	top: 30px;
 }
 
-.golden-corner-p{
+.golden-corner-p {
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
@@ -180,73 +185,80 @@ nav{
 	font-family: Arial Narrow, Arial;
 }
 
-.flex-container-list-1-heading{
+.flex-container-list-1-heading {
 	text-align: center;
 	color: gold;
-	text-shadow: 1px 1px 1px #404040;
-	margin-bottom:30px;
-}
-
-.flex-container-list-2-heading{
-	text-align: center;
-	color: gold;
-	text-shadow: 1px 1px 1px #404040;
-	margin-bottom:30px;
-}
-
-li{
-	margin: 20px;
-}
-
-button.golden:hover{
-transform: scale(1.07);
-background-color: #ffdb19;
-border: 1px solid black;
-border-radius: 2px;
-}
-
-.silver{
-	padding: 15px;
-	cursor: pointer;
-	transition-duration: 0.15s;
-	position: relative; 
-	right: 30px; 
-	top: 30px;
-}
-
-button.silver:hover{
-transform: scale(1.07);
-background-color: #C0C0C0;
-border: 1px solid black;
-border-radius: 2px;
-}
-
-form > p {
-	margin: 0 auto;
-	width: 500px;
-	display: flex;
-	justify-content: space-between;
-	font-size:25px;
 	text-shadow: 1px 1px 1px #404040;
 	margin-bottom: 30px;
 }
 
-form > p > label{
+.flex-container-list-2-heading {
+	text-align: center;
+	color: gold;
+	text-shadow: 1px 1px 1px #404040;
+	margin-bottom: 30px;
+}
+
+li {
+	margin: 20px;
+}
+
+button.golden:hover {
+	transform: scale(1.07);
+	background-color: #ffdb19;
+	border: 1px solid black;
+	border-radius: 2px;
+}
+
+.silver {
+	padding: 15px;
+	cursor: pointer;
+	transition-duration: 0.15s;
+	position: relative;
+	right: 30px;
+	top: 30px;
+}
+
+button.silver:hover {
+	transform: scale(1.07);
+	background-color: #C0C0C0;
+	border: 1px solid black;
+	border-radius: 2px;
+}
+
+form>p {
+	margin: 0 auto;
+	width: 500px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 25px;
+	text-shadow: 1px 1px 1px #404040;
+	margin-bottom: 30px;
+}
+
+form>p>label {
 	position: relative;
 	top: 5px;
 }
 
-form input{
+form input {
 	height: 40px;
 	width: 300px;
 	resize: none;
-	font-size:25px;
+	font-size: 25px;
 }
 
-form button{
+form button {
 	/*background-color: #008000;*/
 	background-image: linear-gradient(#00b300, #006600);
 	color: white;
 	font-size: 1.3em;
 	padding: 15px;
+}
+
+@media (max-width: 800px) {
+	.flex-container {
+		flex-direction: column;
+		height: 200vh;
+	}
 }

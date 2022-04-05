@@ -1,6 +1,0 @@
-@media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-	height: 200vh;
-  }
-}
