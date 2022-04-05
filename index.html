@@ -16,8 +16,9 @@
 <body>
 	<section id="section-one">
 		<nav>
-			<div><a href="index.html" id="logo-link">
-					<div style="display: table;">
+			<div>
+				<a href="index.html" id="logo-link">
+					<div class="logo-div">
 						<svg width="69" height="66" xmlns="http://www.w3.org/2000/svg" stroke="null">
 							<!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
 							<g stroke="null">
@@ -39,9 +40,7 @@
 									fill="#00005C" /> <!-- pionowy -->
 							</g>
 						</svg>
-						<h1
-							style="display: table-cell; text-align: center; vertical-align: middle;	color: #00005C; font-size: 2em;">
-							Healthmedic</h1>
+						<span class="logo">Healthmedic</span>
 					</div>
 				</a>
 			</div>
@@ -63,8 +62,9 @@
 				Zapoznaj się z naszą ofertą.</p>
 		</div>
 	</section>
+
 	<section id="section-two">
-		<div style="padding-top:110px; padding-bottom: 60px; text-align: center;">
+		<div class="title-area">
 			<span class="section-two-title">Wybierz swój pakiet medyczny</span>
 		</div>
 		<div class="flex-container">
@@ -75,7 +75,7 @@
 				<div class="flex-container-list-1-heading">
 					<h1>Pakiet optimum</h1>
 				</div>
-				<div style="padding-left: 40px;">
+				<div class="single-package-content">
 					<p>Korzyści:</p>
 					<ul>
 						<li>Profesjonalna opieka medyczna</li>
@@ -83,7 +83,7 @@
 						<li>Dostęp 24 godziny na dobę</li>
 						<ul>
 				</div>
-				<div style="text-align: right;">
+				<div class="button-area">
 					<a href="#">
 						<button class="golden" type="button" name="golden">Wybierz pakiet</button>
 					</a>
@@ -96,7 +96,7 @@
 				<div class="flex-container-list-2-heading">
 					<h1>Pakiet standard</h1>
 				</div>
-				<div style="padding-left: 40px;">
+				<div class="single-package-content">
 					<p>Korzyści:</p>
 					<ul>
 						<li>Profesjonalna opieka medyczna</li>
@@ -104,7 +104,7 @@
 						<li>Dostęp 24 godziny na dobę</li>
 						<ul>
 				</div>
-				<div style="text-align: right;">
+				<div class="button-area">
 					<a href="#">
 						<button type="button" class="silver" name="silver">Wybierz pakiet</button>
 					</a>
@@ -112,29 +112,29 @@
 			</div>
 		</div>
 	</section>
+
 	<section id="section-three">
-		<div style="padding-top:110px; padding-bottom: 60px; text-align: center;">
-			<span class="section-two-title" style="text-shadow: 
-			1px 1px 1px black;">Wypełnij dane - oddzwonimy</span>
+		<div class="form-title">
+			<span class="section-two-title">Wypełnij dane - oddzwonimy</span>
 		</div>
-		<div style="text-align: center;">
+		<div class="form-area">
 			<form>
 				<p>
-					<label for="imie" style="position: relative; top: 5px;">
+					<label for="name">
 						Imię</label>
-					<input id="imie" />
+					<input id="name" />
 				</p>
 				<p>
-					<label for="nazwisko">Nazwisko</label>
-					<input id="nazwisko" />
+					<label for="surname">Nazwisko</label>
+					<input id="surname" />
 				</p>
 				<p>
-					<label for="e-mail">E-mail</label>
-					<input id="e-mail" />
+					<label for="email">E-mail</label>
+					<input id="email" />
 				</p>
 				<p>
-					<label for="telefon">Telefon</label>
-					<input id="telefon" />
+					<label for="phone">Telefon</label>
+					<input id="phone" />
 				</p>
 				<br /><br />
 				<button type="submit" disabled>Wyślij dane</button>
