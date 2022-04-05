@@ -103,11 +103,9 @@ nav {
 	background-color: white;
 	color: rgb(0, 0, 80);
 	border-left: 1px dotted rgb(0, 0, 35);
-
 	padding: 10px;
 	text-align: center;
 	width: 100px;
-	/*height: 50px;*/
 	font-weight: bold;
 	position: relative;
 	top: 15px;
@@ -124,9 +122,10 @@ nav {
 }
 
 .flex-container-list {
-	flex: 100%;
+	flex: 50%;
 	background-color: white;
-	margin: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
 	border-radius: 15px;
 	height: 400px;
 	border: 1px solid rgb(0, 0, 35);
@@ -135,7 +134,6 @@ nav {
 #flex-container-list-1 {
 	margin-right: 5%;
 	border: 8px solid gold;
-
 	background-color: #fff9d9;
 	padding: 15px;
 	color: #404040;
@@ -143,7 +141,7 @@ nav {
 }
 
 #flex-container-list-2 {
-	margin-left: 5%;
+	margin-left: 2.5%;
 	border: 8px solid grey;
 	background-color: #ececec;
 	padding: 15px;
@@ -177,17 +175,18 @@ nav {
 	display: table;
 }
 
-.button-area {
+/* .button-area {
 	text-align: right;
-}
+	border: 1px solid red;
+} */
 
-.golden {
+.button {
 	padding: 15px;
 	cursor: pointer;
-	transition-duration: 0.15s;
+	transition-duration: 0.1s;
 	position: relative;
 	right: 30px;
-	top: 30px;
+	bottom: 30px;
 }
 
 .golden-corner-p {
@@ -216,23 +215,14 @@ li {
 	margin: 20px;
 }
 
-button.golden:hover {
+.golden:hover {
 	transform: scale(1.07);
 	background-color: #ffdb19;
 	border: 1px solid black;
 	border-radius: 2px;
 }
 
-.silver {
-	padding: 15px;
-	cursor: pointer;
-	transition-duration: 0.15s;
-	position: relative;
-	right: 30px;
-	top: 30px;
-}
-
-button.silver:hover {
+.silver:hover {
 	transform: scale(1.07);
 	background-color: #C0C0C0;
 	border: 1px solid black;
@@ -280,6 +270,19 @@ form button {
 }
 
 @media (max-width: 800px) {
+
+	/* .flex-container {
+		margin: 5%;
+	} */
+
+	#flex-container-list-1 {
+		margin: 5%;
+		margin-top: 0;
+	}
+
+	#flex-container-list-2 {
+		margin: 5%;
+	}
 
 	.flex-container {
 		flex-direction: column;
