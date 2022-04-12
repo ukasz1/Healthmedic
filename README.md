@@ -1,5 +1,5 @@
 # Healthmedic
-<i>(See 👉<a href="https://mitkowski-healthmedic.netlify.app/" />online here</a>👈)</i>\
+<i>(See 👉<a href="https://mitkowski-healthmedic.netlify.app/" target="_blank" />online here</a>👈)</i>\
 \
 A simple responsive visual project for a service company, especially for a medical clinic, written in HTML and CSS. The site provides some content with an offer details and a contact form (only graphical layout). A fixed navbar provides local navigation, along one site. No JS and back-end used.
 
